@@ -12,7 +12,6 @@ import "react-toastify/dist/ReactToastify.css";
 import Dashboard from "./Pages/Dashboard/Dashboard";
 import MyAppointments from "./Pages/Dashboard/MyAppointments";
 import MyReview from "./Pages/Dashboard/MyReview";
-import MyHistory from "./Pages/Dashboard/MyHistory";
 import Users from "./Pages/Dashboard/Users";
 import RequireAdmin from "./Pages/Login/RequireAdmin";
 import AddDoctor from "./Pages/Dashboard/AddDoctor";
@@ -20,7 +19,6 @@ import ManageDoctors from "./Pages/Dashboard/ManageDoctors";
 import Payment from "./Pages/Dashboard/Payment";
 import ContactUs from "./Pages/ContactUs/ContactUs";
 import Testimonials from "./Pages/Review/Testimonials";
-import Doctors from "./Pages/Doctor/Doctors";
 
 function App() {
   return (
@@ -31,7 +29,6 @@ function App() {
         <Route path="about" element={<About />} />
         <Route path="contact" element={<ContactUs></ContactUs>} />
         <Route path="review" element={<Testimonials></Testimonials>} />
-        <Route path="doctor" element={<Doctors></Doctors>} />
         <Route
           path="appointment"
           element={
